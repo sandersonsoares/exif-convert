@@ -1,0 +1,20 @@
+{
+  "name": "exif-editor",
+  "type": "module",
+  "module": "index.ts",
+  "scripts": {
+    "start": "bun index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "dom-to-image": "^2.6.0",
+    "exiftool-vendored": "^26.0.0",
+    "sharp": "^0.33.3"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
